@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="notification-div">
+      <div class="notification-title"><h2>Notifications</h2></div>
+      <div class="notification-number">
+        <p>3</p>
+      </div>
+    </div>
+      <button class="mark-as-read">Mark all as read</button>
+    </header>
+    <main>
+      <div class="notification notification-1 unread">
+        <img src="assets/images/avatar-mark-webber.webp" alt="mark profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Mark Webber</span>
+            reacted to your recent post <span class="other-span">My first tournament today!</span>
+          </p>
+          <p class="notification-time">1m ago</p>
+        </div>
+      </div>
+      <div class="notification notification-2 unread">
+        <img src="assets/images/avatar-angela-gray.webp" alt="angela profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Angela Gray</span>
+            followed you
+          </p>
+          <p class="notification-time">5m ago</p>
+        </div>
+      </div>
+      <div class="notification notification-3 unread">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Jacob Thompson</span>
+            has joined your group <span class="chess-club">Chess Club</span>
+          </p>
+          <p class="notification-time">1 day ago</p>
+        </div>
+      </div>
+      <div class="notification notification-4">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Rizky Hasanuddin</span>
+            sent you a private message
+          </p>
+          <p class="notification-time">5 days ago</p>
+        
+        <div class="private-msg">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+  I'm already having lots of fun and improving my game.
+        </div>
+      </div>
+      </div>
+      <div class="notification notification-5">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="kimberly profile pic" class="profile">
+        <div class="chess-pic">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Kimberly Smith</span>
+            commented on your picture
+          </p>
+          <p class="notification-time">1 week ago</p>
+        </div>
+        <img src="assets/images/image-chess.webp" width="30px" alt="" class="chess">
+      </div>
+      </div>
+      <div class="notification notification-6">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="nathan profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Nathan Peterson</span>
+            reacted to your recent post <span class="other-span">5 end-game strategies to increase your win rate</span>
+          </p>
+          <p class="notification-time">2 weeks ago</p>
+        </div>
+      </div>
+      <div class="notification notification-7">
+        <img src="assets/images/avatar-anna-kim.webp" alt="anna profile pic" class="profile">
+        <div class="info">
+          <p class="notification-title">
+            <span class="name">Anna Kim</span>
+            left the group <span class="chess-club">Chess Club</span>
+          </p>
+          <p class="notification-time">2 weeks ago</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
