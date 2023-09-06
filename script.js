@@ -11,5 +11,6 @@ function markAsRead() {
             notificationsArr[i].classList.remove('unread')
     }
 }
-    document.querySelector('.notification-number').style.display = 'none'
+    document.querySelector('.notification-number').textContent = '0'
+    markAsReadButton.disabled = true
 }
